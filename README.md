@@ -28,7 +28,51 @@
 - Top locations ranking table
 - Model performance visualization
 
-## 🚀 Quick Start
+# Overview
+## Purpose and Scope
+This document provides a comprehensive overview of the BizWizV2.1 Enhanced system, a multi-city commercial location analysis platform designed for data-driven site selection decisions. The system uses machine learning to analyze potential restaurant locations by integrating demographic, geographic, and competitive data across multiple configured cities.
+
+## System Purpose
+BizWizV2.1 is a commercial location intelligence platform that predicts optimal restaurant placement using multi-source data integration and machine learning. The system currently focuses on Raising Cane's expansion opportunities in North Dakota markets, analyzing factors including:
+- Demographics: Income, age, and population density from US Census data
+- Competition: Distance and density of competing fast-food establishments
+- Commercial Viability: Traffic patterns, zoning compliance, and accessibility
+- Market Factors: City-specific preferences and saturation levels
+The platform generates interactive visualizations, revenue predictions, and ranked location recommendations to support strategic expansion decisions.
+
+## System Architecture
+The BizWizV2.1 system follows a modular architecture with distinct layers for orchestration, configuration, data processing, and visualization:
+<img width="1476" alt="Screenshot 2025-06-04 at 7 25 31 PM" src="https://github.com/user-attachments/assets/9fded506-9b41-4cff-ba58-e03fdc7e8df6" />
+
+## Multi-City Configuration System
+The system supports multiple cities through a centralized configuration management approach that enables city-specific analysis parameters and data caching:
+<img width="965" alt="Screenshot 2025-06-04 at 7 27 08 PM" src="https://github.com/user-attachments/assets/d342de09-a111-45bb-b75d-e93a776cdf1a" />
+
+## Key System Capabilities
+### Machine Learning Pipeline
+The system implements an EnhancedMLPipeline with sophisticated model validation and hyperparameter optimization:
+<img width="721" alt="Screenshot 2025-06-04 at 7 28 21 PM" src="https://github.com/user-attachments/assets/41101cf6-0ea5-44ab-9aac-588bec1c6f6b" />
+
+### Data Integration
+The platform integrates multiple external data sources through rate-limited APIs:
+<img width="735" alt="Screenshot 2025-06-04 at 7 28 46 PM" src="https://github.com/user-attachments/assets/6de96c0d-6b79-4e1a-88cf-c2cfd76e4911" />
+
+## Data Flow Pipeline
+The system processes data through a sequential pipeline from collection to visualization:
+<img width="609" alt="Screenshot 2025-06-04 at 7 36 53 PM" src="https://github.com/user-attachments/assets/28e9d97d-7857-4672-a76c-d59a66774efb" />
+
+## Performance and Optimization
+The system implements several optimization strategies for efficient operation:
+- Caching Strategy
+- City-specific caching prevents API waste across different markets
+- Incremental updates only fetch new data when necessary
+- API usage tracking monitors daily quotas in api_usage.json
+- Model Validation
+- Performance targets: R² > 0.7 for acceptable model accuracy
+- Feature importance analysis identifies key prediction factors
+- Cross-validation ensures robust performance across data splits
+
+## Quick Start
 
 ### 1. Installation
 ```bash

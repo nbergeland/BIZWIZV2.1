@@ -77,8 +77,8 @@ The system implements several optimization strategies for efficient operation:
 ### 1. Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/BizWizV2.git
-cd BizWizV2
+git clone https://github.com/yourusername/BizWizV2.1.git
+cd BizWizV2.1
 
 # Run the installation script
 python install.py

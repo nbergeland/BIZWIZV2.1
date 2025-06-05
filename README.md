@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 🎯 What's New in Version 2.1.0
+## What's New in Version 2.1.0
 
 **🏙️ Multi-City Support**
 - Configurable city boundaries and demographics

@@ -1,4 +1,4 @@
-# BizWizV2 Enhanced - Multi-City Commercial Location Analysis
+# BizWizV2.1 Enhanced - Multi-City Commercial Location Analysis
 
 ![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-green.svg)

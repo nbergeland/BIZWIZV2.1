@@ -106,7 +106,7 @@ python enhanced_visualization_app.py
 ## 📁 Project Structure
 
 ```
-BizWizV2/
+BizWizV2.1/
 ├── 📄 Enhanced Core Files
 │   ├── city_config.py                    # Multi-city configuration system
 │   ├── enhanced_data_collection.py       # Advanced data collection with ML
@@ -280,7 +280,7 @@ print(f"Best location revenue: ${df['predicted_revenue'].max():,.0f}")
 - **Age Demographics**: Target specific age groups
 - **Population Density**: Urban vs suburban preferences
 
-## 🔍 Model Validation
+## Model Validation
 
 ### Performance Metrics
 - **R² Score**: Variance explained by model (target: >0.7)
@@ -361,7 +361,7 @@ The enhanced system is backward compatible. Your existing `.env` file and cached
 - 🔄 Model validation
 - 🔄 Multi-city support
 
-## 📈 Future Roadmap
+## 📈 Future Roadmap 🔜
 
 ### Version 2.2 (Planned)
 - **Advanced Geospatial Analysis**: Drive-time polygons and visibility analysis

@@ -375,7 +375,7 @@ The enhanced system is backward compatible. Your existing `.env` file and cached
 - **Advanced Reporting**: PDF generation and executive dashboards
 - **Machine Learning**: Deep learning models and time-series forecasting
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -396,7 +396,7 @@ flake8 .
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenStreetMap** for free geographic data
 - **US Census Bureau** for demographic data
